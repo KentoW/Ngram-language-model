@@ -7,7 +7,7 @@ N-gram言語モデルをPythonで実装
 # Sample code.
 from ngram import Ngram
 
- ngram = Ngram(input_file='corpus.txt', N=3, smoothing='kneser-nay')
+ngram = Ngram(input_file='corpus.txt', N=3, smoothing='kneser-nay')
 ngram.train()
 ngram.ppl(input_file=args.corpus)               #ATTENTION!! very slow
 generated_list = ngram.generate(window=5, mode='sample', temprature=1.1, max_word=30)
