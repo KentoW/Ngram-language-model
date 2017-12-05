@@ -18,7 +18,7 @@ for words, log_prob in generated_list:
 ```
 ## メソッド
 `train()` 言語モデルの学習  
-`ppl()` パープレキシティの計算
+`ppl()` パープレキシティの計算  
 `generation()`  文の生成  
 
 ## パラメータ
